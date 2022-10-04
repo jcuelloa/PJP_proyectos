@@ -1,0 +1,24 @@
+{
+  "name": "proyectos",
+  "version": "1.0.0",
+  "description": "proyectos de la asignatura PJP",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\" --quiet",
+    "test": "jest --passWithNoTests --silent"
+  },
+  "author": "jcuelloa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-jest": "^29.1.2",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^29.1.2",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.7.1"
+  }
+}
